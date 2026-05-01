@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Concepter Bosibori</title>
-  <link rel="stylesheet" href="Styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
@@ -21,7 +21,7 @@
       </label>
 
       <ul class="nav-links">
-        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html" class="active">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -43,23 +43,25 @@
 
         <div class="projects-grid">
 
-          <!-- PROJECT 1 — Portfolio -->
+          <!-- PROJECT 1 — Portfolio (GitHub Pages) -->
           <article class="project-card">
             <div class="project-top">
               <div class="project-icon">🗂️</div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Connie-cloud-svg/My-portfolio"
+                  href="https://github.com/Connie-cloud-svg/MyPortfolio"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
                   title="GitHub"
                   aria-label="GitHub"
                 >⌥</a>
                 <a
-                  href="https://github.com/Connie-cloud-svg/My-portfolio"
+                  href="https://connie-cloud-svg.github.io/"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
-                  title="Live Demo"
+                  title="Live Site"
                   aria-label="Live site"
                 >↗</a>
               </div>
@@ -67,74 +69,72 @@
             <h3>Portfolio Website</h3>
             <p>
               A responsive personal portfolio to showcase my skills and projects.
-              Clean, dark aesthetic with a custom nav, lightbox gallery, contact form,
-              and skills section.
+              Dark emerald aesthetic with a sticky nav, lightbox gallery, contact form,
+              and skills section. Hosted live on GitHub Pages.
+            </p>
+            <div class="project-tags">
+              <span class="tag green">HTML</span>
+              <span class="tag green">CSS</span>
+              <span class="tag gray">GitHub Pages</span>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 — Task List (Week 07) -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon">📃</div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Connie-cloud-svg/iyf-s10-week-05-Connie-cloud-svg"
+                  target="_blank"
+                  rel="noopener"
+                  class="project-link"
+                  title="GitHub"
+                  aria-label="GitHub"
+                >⌥</a>
+              </div>
+            </div>
+            <h3>Task List App</h3>
+            <p>
+              A dynamic task list app built with vanilla JavaScript. Add, complete,
+              and delete tasks with real-time DOM updates — demonstrating event
+              handling and interactive UI state management.
             </p>
             <div class="project-tags">
               <span class="tag green">HTML</span>
               <span class="tag green">CSS</span>
               <span class="tag yellow">JavaScript</span>
+              <span class="tag gray">IYF S10</span>
             </div>
           </article>
 
-          <!-- PROJECT 2 — Shopping Cart -->
+          <!-- PROJECT 3 — Shopping Cart (Week 08) -->
           <article class="project-card">
             <div class="project-top">
               <div class="project-icon">🛒</div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Connie-cloud-svg"
+                  href="https://github.com/Connie-cloud-svg/iyf-s10-week-07-Connie-cloud-svg"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
                   title="GitHub"
                   aria-label="GitHub"
                 >⌥</a>
-                <a
-                  href="#"
-                  class="project-link"
-                  title="Live Demo"
-                  aria-label="Live site"
-                >↗</a>
               </div>
             </div>
             <h3>Shopping Cart App</h3>
             <p>
               A vanilla JS shopping cart fetching live product data from DummyJSON API.
-              Features category filters, skeleton loading, a slide-in cart drawer,
-              quantity controls, and discount pricing logic.
+              Features category filters, skeleton loading states, a slide-in cart
+              drawer, quantity controls, and discount pricing logic.
             </p>
             <div class="project-tags">
               <span class="tag green">HTML</span>
               <span class="tag green">CSS</span>
               <span class="tag yellow">JavaScript</span>
               <span class="tag blue">REST API</span>
-            </div>
-          </article>
-
-          <!-- PROJECT 3 — WhatsApp Clone -->
-          <article class="project-card">
-            <div class="project-top">
-              <div class="project-icon">💬</div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/Connie-cloud-svg"
-                  target="_blank"
-                  class="project-link"
-                  title="GitHub"
-                  aria-label="GitHub"
-                >⌥</a>
-              </div>
-            </div>
-            <h3>WhatsApp Clone UI</h3>
-            <p>
-              A pixel-faithful static clone of the WhatsApp Web interface. Built to
-              practise complex CSS layout — flexbox sidebar, message bubbles, status
-              bar, and responsive breakpoints.
-            </p>
-            <div class="project-tags">
-              <span class="tag green">HTML</span>
-              <span class="tag green">CSS</span>
-              <span class="tag gray">Layout</span>
+              <span class="tag gray">IYF S10</span>
             </div>
           </article>
 
@@ -144,8 +144,9 @@
               <div class="project-icon">⚛️</div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Connie-cloud-svg/iyf-s10-week-08-Connie-cloud-svg"
+                  href="https://github.com/Connie-cloud-svg/iyf-s10-week-12-team-Connie-cloud-svg"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
                   title="GitHub"
                   aria-label="GitHub"
@@ -156,7 +157,7 @@
             <p>
               A React community platform built at IYF Weekend Academy. Features a
               live-search post feed, create-post form, user cards, reusable
-              components (Button, Card, Input), and multi-page routing with React Router.
+              components, and multi-page routing with React Router.
             </p>
             <div class="project-tags">
               <span class="tag blue">React</span>
@@ -166,57 +167,60 @@
             </div>
           </article>
 
-          <!-- PROJECT 5 — To-Do List -->
+          <!-- PROJECT 5 — Weather Dashboard (Week 06) -->
           <article class="project-card">
             <div class="project-top">
-              <div class="project-icon">📃</div>
+              <div class="project-icon">🌤️</div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Connie-cloud-svg"
+                  href="https://github.com/Connie-cloud-svg/iyf-s10-week-06-Connie-cloud-svg"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
                   title="GitHub"
                   aria-label="GitHub"
                 >⌥</a>
               </div>
             </div>
-            <h3>To-Do List App</h3>
+            <h3>Weather Dashboard</h3>
             <p>
-              A clean to-do list built with vanilla JavaScript. Add, complete, and delete
-              tasks with real-time DOM updates. Demonstrates event delegation and basic
-              local state management.
+              A weather dashboard that fetches and displays real-time conditions
+              and forecasts for a given location. Demonstrates API integration,
+              async JavaScript, and dynamic data rendering.
             </p>
             <div class="project-tags">
               <span class="tag green">HTML</span>
               <span class="tag green">CSS</span>
               <span class="tag yellow">JavaScript</span>
+              <span class="tag blue">Weather API</span>
+              <span class="tag gray">IYF S10</span>
             </div>
           </article>
 
-          <!-- PROJECT 6 — Music Queue (side project) -->
+                    <!-- coming soon -->
           <article class="project-card">
             <div class="project-top">
-              <div class="project-icon">🎵</div>
+              <div class="project-icon">🛠️</div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Connie-cloud-svg"
+                  href="Contact.html"
                   target="_blank"
+                  rel="noopener"
                   class="project-link"
                   title="GitHub"
                   aria-label="GitHub"
                 >⌥</a>
               </div>
             </div>
-            <h3>My Music Queue</h3>
+            <h3>Coming Soon</h3>
             <p>
-              A React side-project for practising core concepts — useState, props/composition,
-              list rendering with filtering, and conditional rendering. Dark vinyl aesthetic
-              for extra flair.
+              I'm always working on new projects and learning new technologies.
+              Check back soon for updates — or reach out if you want to collaborate!
             </p>
             <div class="project-tags">
-              <span class="tag blue">React</span>
-              <span class="tag yellow">JavaScript</span>
-              <span class="tag gray">useState</span>
+              <span class="tag yellow"></span>
+              <span class="tag gray"></span>
+              <span class="tag gray"></span>
             </div>
           </article>
 
